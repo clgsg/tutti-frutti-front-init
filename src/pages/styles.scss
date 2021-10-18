@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200;900&family=Fredericka+the+Great&display=swap);
+
+$text_font: 'Arima Madurai';
+$title_font: 'Fredericka the Great';
+
+
+// PALETTE B //
+$orange: #FB7E0F;
+$orange2: #F6545E;
+$pink: #C84E8A;
+$purple1: #835797;
+$purple2: #455581;
+$purple3: #2F4858;
+$almost_black: rgb(9, 49, 49);
+$pale_beige: #DCD9D4;
+
+body {background-color: $pale_beige;}
+
+button {
+	background: linear-gradient(90deg, $orange 0%, $orange2 100%);
+	color: $almost_black;
+	border-color: $orange;
+	border-radius: 4px;
+	font-family: $text_font;
+	font-weight: 200;
+}
+
+button:hover, button:active {
+	background: linear-gradient(90deg, $orange2 0%, $orange 100%);
+	color: $almost_black;
+	border-color: $orange;
+	border-radius: 4px;
+	font-family: $text_font;
+	font-weight: 900;
+}
+
+p {
+	font-family: $text_font;
+	font-size: 30px;
+	font-weight: 500;
+	color: $almost_black;
+}
+
+h1 {
+	font-family: $title_font;
+	font-size: 40;
+	color: $almost_black;
+}
